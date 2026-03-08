@@ -12,6 +12,10 @@ line-height: 1.2;
 letter-spacing: 3%;
 
 }
+ul, p, h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
 h1,h2,h3 {
     color: var(--brand-color);
     font-family: "Alumni Sans Collegiate One", sans-serif;
@@ -43,6 +47,29 @@ h1,h2,h3 {
     }
     .header{
         display: inline-block;
+        display: flex;
+    }
+    .header-up{
+        display: flex;
+    }
+    .text-header{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-right: 60px;
+    }
+    .socials-header{
+        display: flex;
+        
+    }
+    .social:not(:last-child){
+        margin-right: 40px;
+    }
+    .social-link{
+        display: block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .nav-items{
         display: flex;
     }
     /*________________________sezione Hero________________*/
