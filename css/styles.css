@@ -32,10 +32,23 @@ h1,h2,h3 {
     .link:hover,:focus{
         color:var(--second-brand-color);
         background-color: var(--brand-color);
+
+    }
+
+    .container{
+        
+        width: 1220px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .header{
+        display: inline-block;
+        display: flex;
     }
     /*________________________sezione Hero________________*/
     .hero-slogan{
         font-family: "Faster One" , sans-serif;
+        font-size: 60px;
     }
    .hero-text{
     font-weight: 400;
