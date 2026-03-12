@@ -111,6 +111,34 @@ border-radius: 25px;
     .nav-teams:not(:last-child){
         margin-left: 25px;
     }
+    /*________________________sezione footer________________*/
+    .footer-section{
+        
+        
+        background-color: #212121;
+        color: var(--second-brand-color);
+    }
+    .footer-list{
+display: flex;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+       
+    }
+    .footer-info{
+        display: flex;
+    }
+    .footer-social{
+        display: flex;
+    }
+    .footer-sections{
+        display: inline-block;
+      
+        align-items: center;
+     
+       
+    }
     /*________________________sezione Hero________________*/
     .hero{
         padding-top: 20px;
@@ -188,11 +216,20 @@ justify-content:space-between ;
 .squadra{
     width: 500px;
     justify-items: center;
+    text-align: center;
      margin-bottom: 40px;
 }
 /* ----------------------------------prossime partite---------------*/
+.prossime-partite{
+    background-color: var(--brand-color);
+}
+.partite-div{
+    background-color: rgba(255, 255, 255, 0.8);
+}
 .games-title{
     margin-bottom: 60px;
+
+    
 }
 .list-games{
 display: flex;
