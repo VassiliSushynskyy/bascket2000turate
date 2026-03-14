@@ -319,6 +319,8 @@ justify-content: space-between;
     font-size: 40px;
     line-height: 100%;
    letter-spacing:2.2%;
+
+   margin-bottom: 20px;
 }
 .list-eventi{
     color: var(--brand-color);
@@ -326,18 +328,29 @@ justify-content: space-between;
     font-size: 22px;
     line-height: 100%;
    letter-spacing:2.2%;
+
+   text-align: center;
+   
+}
+.img-eventi{
+    margin-right: auto;
 }
 /* _____________________________pagina palestre e orari_____________*/
 .text-palestre{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 100%;
    letter-spacing:2.2%;
+
+   margin-bottom: 20px;
+   text-align: center;
 }
 /* _____________________________pagina contatti_____________*/
 .text-contatti{
     font-size: 30px;
     line-height: 100%;
    letter-spacing:2.2%;
+
+   width: 800px;
 }
 /* _____________________________tabella_____________*/
 .tabella-body > tr:hover {
@@ -346,6 +359,15 @@ justify-content: space-between;
 }
 .tabella {
   border-collapse: collapse;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+caption{
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .tabella th,
